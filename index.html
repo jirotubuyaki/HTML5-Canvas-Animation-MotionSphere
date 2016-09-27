@@ -4,28 +4,8 @@
 	<meta charset="UTF-8">
 	<script src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
 	<script src="Main.js"></script>
-	<style>
-		HTML{
-			height:100%;
-			width:100%;
-			background-color:#000000;
-		}
-		
-		BODY{
-			overflow:hidden;
-			margin:0px 0px;
-	   		height:100%;
-			width:100%;
-		}
-	</style>
 </head>
-<body onload="init()">
-	<table valign="middle" align="center" width="100%" height="100%" border="0px">
-		<tr valign="middle" align="center" width="100%" height="100%" border="0px">
-			<td valign="middle" align="center" width="100%" height="100%" border="0px">				
-				<div><canvas id="mycanvas" width="1280px" height="1000px" style="width:640px;height:500px;"></canvas></div>
-			</td>
-		</tr>
-	</table>
+<body onload="init()" bg-color="#000">
+	<div><canvas id="mycanvas" width="1280px" height="1000px" style="width:640px;height:500px;"></canvas></div>
 </body>
 </html>
